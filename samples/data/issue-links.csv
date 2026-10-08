@@ -1,0 +1,27 @@
+이슈 번호,이슈 제목,담당자,이슈 상태,기준 ID,연결한 방법
+SIL-28,[알리기] v0 켤 때 바뀐 기준 보여 주고 답 기록하기,민수,진행 중,notify.terminal.one-change,사람 확인
+SIL-28,[알리기] v0 켤 때 바뀐 기준 보여 주고 답 기록하기,민수,진행 중,notify.answer.two-questions,사람 확인
+SIL-28,[알리기] v0 켤 때 바뀐 기준 보여 주고 답 기록하기,민수,진행 중,copy.term.related,사람 확인
+SIL-31,[알리기] 응답 기록과 표로 내보내기,민수,진행 중,data.response.check-seconds,사람 확인
+SIL-31,[알리기] 응답 기록과 표로 내보내기,민수,진행 중,data.response.columns,사람 확인
+SIL-32,"[알리기] 앱 알림: 실시간 변경 받기, Mac·Windows 알림",민수,할 일,app.notify.title-length,사람 확인
+SIL-32,"[알리기] 앱 알림: 실시간 변경 받기, Mac·Windows 알림",민수,할 일,app.notify.realtime,사람 확인
+SIL-34,[알리기] 터미널 알림 첫 시안 (v0용),부건,완료,notify.terminal.one-change,사람 확인
+SIL-34,[알리기] 터미널 알림 첫 시안 (v0용),부건,완료,notify.terminal.show-fields,사람 확인
+SIL-35,[알리기] 터미널 알림의 정보 순서와 줄 수,부건,진행 중,notify.terminal.one-change,사람 확인
+SIL-35,[알리기] 터미널 알림의 정보 순서와 줄 수,부건,진행 중,notify.terminal.show-fields,사람 확인
+SIL-39,[알리기] 명령어 이름과 도움말 문구,부건,할 일,copy.term.this-tool,사람 확인
+SIL-42,[앱] 나에게 온 변경과 답하기 화면,신지,진행 중,notify.terminal.one-change,사람 확인
+SIL-42,[앱] 나에게 온 변경과 답하기 화면,신지,진행 중,copy.term.related,사람 확인
+SIL-42,[앱] 나에게 온 변경과 답하기 화면,신지,진행 중,notify.answer.two-questions,사람 확인
+SIL-43,[앱] 앱 알림 한 줄 문구,신지,진행 중,app.notify.title-length,사람 확인
+SIL-45,[앱] 지표 화면,신지,할 일,data.response.check-seconds,사람 확인
+SIL-45,[앱] 지표 화면,신지,할 일,goal.metric.primary,사람 확인
+SIL-47,[앱] 설치와 첫 실행 안내,신지,할 일,app.install.unsigned-guide,사람 확인
+SIL-26,"[찾기] 판단하고 위키 고치기, 애매하면 PR 댓글로 묻기",경하,진행 중,copy.explain.plain-words,사람 확인
+SIL-49,[검증] 매일 Metric Review,호윤,진행 중,goal.metric.primary,사람 확인
+SIL-49,[검증] 매일 Metric Review,호윤,진행 중,data.response.check-seconds,사람 확인
+SIL-52,[검증] 임시 서비스 이름 정하기,,할 일,copy.term.this-tool,사람 확인
+SIL-19,[통합] MCP 서버 뼈대와 위키 읽기·쓰기 도구,정민,진행 중,wiki.mcp.five-tools,사람 확인
+SIL-34,[알리기] 터미널 알림 첫 시안 (v0용),부건,완료,notify.answer.skip-limit,사람 확인
+SIL-42,[앱] 나에게 온 변경과 답하기 화면,신지,진행 중,notify.answer.skip-limit,사람 확인
