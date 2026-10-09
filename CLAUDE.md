@@ -30,11 +30,17 @@
 ## 포매팅 및 린트
 
 - **Prettier**: 코드 포매팅은 Prettier에 맡기고, 저장할 때 자동으로 포맷되도록 에디터를 설정합니다.
-  - Single Quote를 사용합니다.
-  - 줄바꿈 문자는 `LF`로 통일합니다.
+  - 옵션은 루트의 `.prettierrc.json`이 원본입니다. 포맷하지 않을 경로는 `.prettierignore`에 있습니다.
 - **ESLint**: 사용하지 않는 변수는 Error로 처리합니다.
 - 린트 규칙을 끄는 주석(`eslint-disable`)을 쓸 때는 같은 줄에 이유를 적습니다.
 - 커밋하기 전에 린트와 포맷 검사를 통과해야 합니다.
+
+## 패키지 규칙
+
+- 모든 패키지의 `package.json`에 `"type": "module"`을 넣습니다.
+- 상대 경로 import에는 `.js` 확장자를 붙입니다. (예: `import { foo } from './foo.js'`, 실제 파일은 `foo.ts`)
+- 타입만 가져올 때는 `import type`을 씁니다.
+- 각 패키지의 `tsconfig.json`은 루트의 `tsconfig.base.json`을 `extends` 합니다.
 
 ## 커밋 메시지 규칙
 
