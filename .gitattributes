@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# 저장소에 CRLF로 들어가 있는 샘플 데이터는 그대로 둔다
+samples/data/issue-links.csv -text
+samples/data/responses.csv -text
