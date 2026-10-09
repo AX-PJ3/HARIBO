@@ -24,6 +24,7 @@
 - **변수 및 함수**: `camelCase`를 사용합니다.
   - boolean 변수는 `is`, `has`, `should` 등의 접두사를 사용합니다. (예: `isLoading`, `hasError`)
   - 함수 이름은 동사로 시작합니다. (예: `fetchData`, `updateUser`)
+  - 쓰지 않는 변수는 지운다. `_` 접두사는 함수 모양 때문에 받아야 하지만 쓰지 않는 인자와 catch의 에러 변수에만 쓴다.
 - **타입 및 클래스**: `PascalCase`를 사용합니다. (예: `UserProfile`, `OrderService`)
 - **상수**: `UPPER_SNAKE_CASE`를 사용합니다. (예: `MAX_ITEMS_COUNT`)
 
